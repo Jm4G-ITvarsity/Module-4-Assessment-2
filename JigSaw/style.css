@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: deepskyblue;
+}
+
+.left {
+    background-color: deepskyblue;
+    margin-top: 100px;
+    width: 50%;
+    /* height: 100%; */
+    float: left;
+}
+
+.right {
+    margin-top: 50px;
+    width: 43%;
+    float: right;
+    
+}
+
+/* ---------------1st ROW---------------- */
+#grid1-1{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+#grid1-2{
+    position: absolute;
+    left: 250px;
+    top: 50px;
+}
+
+#grid1-3{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+
+
+/* ---------------2nd ROW---------------- */
+
+#grid2-1{
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
+
+#grid2-2{
+    position: absolute;
+    left: 250px;
+    top: 250px;
+}
+
+#grid2-3{
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}
+
+
+/* ---------------3rd ROW---------------- */
+
+#grid3-1{
+    position: absolute;
+    left: 50px;
+    top: 450px;
+}
+
+#grid3-2{
+    position: absolute;
+    left: 250px;
+    top: 450px;
+}
+
+#grid3-3{
+    position: absolute;
+    left: 450px;
+    top: 450px;
+}
